@@ -17,7 +17,7 @@ module GoodbyeChatwork
       @pw = pw
       @opt = opt
       @interval = opt[:inverval] || REQUEST_INTERVAL
-      @base_url = opt[:base_url] || 'https://www.chatwork.com'
+      @base_url = opt[:base_url] || 'https://kcw.kddi.ne.jp'
       @token = nil
       @client = Faraday.new @base_url do |builder|
         builder.request :url_encoded
