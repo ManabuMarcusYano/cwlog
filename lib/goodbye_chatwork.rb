@@ -8,7 +8,7 @@ require 'faraday-cookie_jar'
 
 module GoodbyeChatwork
   class Client
-    REQUEST_INTERVAL = 1
+    REQUEST_INTERVAL = 2
     CHAT_SIZE = 40
 
     def initialize(id, pw, opt = {})
